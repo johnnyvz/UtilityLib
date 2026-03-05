@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/.github/" />
+  <Folder Name="/.github/workflows/">
+    <File Path=".github/workflows/build.yml" />
+    <File Path=".github/workflows/publish-nuget.yml" />
+  </Folder>
+  <Folder Name="/doc/">
+    <File Path="Doc/workflows.txt" />
+  </Folder>
+  <Project Path="UtilityLib/UtilityLib.csproj" />
+</Solution>

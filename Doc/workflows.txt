@@ -1,0 +1,9 @@
+git add .
+git commit -m "Your changes"
+git push origin master
+
+# Update version in UtilityLib.csproj
+git commit -am "Bump to v1.0.1"
+git push origin master
+git tag v1.0.1
+git push origin v1.0.1
